@@ -1,8 +1,5 @@
 {
-  "build": {
-    "builder": "NIXPACKS"
-  },
   "deploy": {
-    "startCommand": "gunicorn server:app --bind 0.0.0.0:$PORT"
+    "startCommand": "gunicorn id:app --bind 0.0.0.0:$PORT"
   }
 }
